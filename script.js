@@ -43,3 +43,8 @@ for (var i = 0; i < navLinks.length; i++) {
     menuBtn.style.pointerEvents = "auto";
   });
 }
+let loaderDiv = document.querySelector(".loader-div");
+
+window.addEventListener("load",function(){
+  loaderDiv.style.display="none"
+})
